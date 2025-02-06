@@ -144,7 +144,7 @@ calculateButton.addEventListener('click', () => {
     } else if ((results_state[5] == 3 && results_state[6] == 2 && results_state[7] == 2)) {
       interpretacion.textContent += "Probable daño óseo, corroborar con perfil óseo. "
     } else if ((results_state[5] == 3 && results_state[6] == 0 && results_state[7] == 0)) {
-      interpretacion.textContent += "Probable daño óseo o colestasis, corroborar completando perfil hepático o correlacionando con historia clínica."
+      interpretacion.textContent += "Probable daño óseo o colestasis, corroborar completando perfil hepático o correlacionando con historia clínica. "
     }
   
     if (results_state[5] == 2 && results_state[6] == 3 && results_state[7] == 2) {
