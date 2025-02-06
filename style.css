@@ -102,7 +102,7 @@ body {
   }
 }
 
-h1 h2 {
+h1, h2 {
 	display: flex;
 	justify-content: center;
   text-align: center;
@@ -202,7 +202,7 @@ input:checked + .slider {
 
 #ascii {
   font-family: monospace;
-  font-size: xx-small;
+  font-size: 8px;
 }
 
 @media (min-width: 760px) {
